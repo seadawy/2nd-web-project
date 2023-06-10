@@ -1,0 +1,84 @@
+button.profile {
+    transition: 1s;
+    font-size: large;
+    font-weight: 700;
+    width: 280px;
+    padding: 0;
+    margin: 10px;
+    overflow: hidden;
+    background: transparent;
+    border: 0;
+}
+
+.profile img {
+    width: -webkit-fill-available;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    width: 100%;
+    border-radius: 2px !important;
+}
+
+.input-label {
+    z-index: 100;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    color: #212121;
+}
+
+.input-element {
+    padding: 30px 5px 5px 10px;
+    border-radius: 7px !important;
+}
+
+.overallcontainer {
+    display: flex;
+    position: absolute;
+    height: -webkit-fill-available;
+    align-content: center;
+    flex-wrap: wrap;
+    width: -webkit-fill-available;
+}
+
+.btn-group-vertical {
+    width: 300px
+}
+
+@media (max-width:450px) {
+    .overallcontainer {
+        height: auto;
+    }
+}
+
+.tabcontent {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.active {
+    background: #0a58ca;
+}
+
+.req {
+    color: red;
+    margin: 5px 0;
+    position: absolute;
+    right: 20px;
+    top: 12px;
+}
+
+.profileshadow {
+    box-shadow: 0px 0px 10px 0px;
+}
+
+#ordersTable_wrapper {
+    width: -webkit-fill-available;
+}
